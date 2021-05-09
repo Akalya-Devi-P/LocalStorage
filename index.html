@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Web Storage API example</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Bitter|Ubuntu+Mono' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+   
+  </head>
+
+  <body>
+  <div class="wrapper">
+    <h1>Web storage</h1>
+
+    <p>The Storage interface of the Web Storage API provides access to a particular domain's session or local storage. It allows, for example, the addition, modification, or deletion of stored data items.
+
+To manipulate, for instance, the session storage for a domain, a call to Window.sessionStorage is made; whereas for local storage the call is made to Window.localStorage.</p>
+
+    <form>
+      <div>
+        <label for="bgcolor">Choose background color:</label>
+	    <input class="color" id="bgcolor" value="FF0000">
+      </div>
+      <div>
+        <label for="font">Choose font style:</label>
+        <select id="font">
+        	<option value="'Open Sans Condensed', sans-serif" selected>Sans-serif</option>
+        	<option value="'Bitter', serif">Serif</option>
+        	<option value="'Ubuntu Mono'">Monospace</option>
+        </select>
+      </div>
+      <div>
+<!--         <label for="image">Choose image:</label>
+        <select id="image">
+        	<option id="pic" value="images/firefoxos.png" selected>Firefox</option>
+        	<option id="pic" value="images/crocodile.png">Crocodile</option>
+        	<option id="pic" value="images/tortoise.png">Tortoise</option>
+        </select> -->
+      </div>
+    </form>
+
+    <footer></footer>
+<!--     <img src="images/firefoxos.png"> -->
+  </div>
+  </body>
+  <script src="script.js"></script>
+  
+</html>
